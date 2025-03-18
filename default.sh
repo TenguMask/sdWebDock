@@ -15,13 +15,35 @@ PIP_PACKAGES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagine-xl-3.1.safetensors"
+)
+
+EXTENSIONS=(
+   # "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+    "https://github.com/zanllp/sd-webui-infinite-image-browsing"
+   # "https://github.com/v0xie/sd-webui-agentattention"
+    "https://github.com/ArtVentureX/sd-webui-agent-scheduler"
+   # "https://github.com/Gourieff/sd-webui-reactor"
+    "https://github.com/Mikubill/sd-webui-controlnet"
+    "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
+    #"https://github.com/d8ahazard/sd_dreambooth_extension"
+    #"https://github.com/deforum-art/sd-webui-deforum"
+    #"https://github.com/adieyal/sd-dynamic-prompts"
+    #"https://github.com/ototadana/sd-face-editor"
+    #"https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
+    #"https://github.com/hako-mikan/sd-webui-regional-prompter"
+    #"https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+    #"https://github.com/fkunn1326/openpose-editor"
+    #"https://github.com/Gourieff/sd-webui-reactor"
 )
 
 UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://civitai.com/api/download/models/967066?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/422063?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
@@ -31,6 +53,7 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
+    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
